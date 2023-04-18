@@ -83,6 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
               if (value != null) {
                 setState(() {
                   search = value;
+                  filter();
                 });
               }
             },
